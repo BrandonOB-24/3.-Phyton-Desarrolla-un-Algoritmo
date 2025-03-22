@@ -1,12 +1,5 @@
-#Compra en Línea (Requisitos de envío)
-codigo_postal = 987521
-numero_domicilio = 44,
-calle = "Av Animas"
-pais = "Mexico"
-estado = "veracruz"
-ciudad = "xalapa"
-edad = "56_años"
-if edad >= "18_años":
-    print("Te podemos entregar el paquete/correspondencia")
-else:
-    print("No eres elegible para recibir el paquete/correspondencia") 
+#Filas en banco
+Request = int(input("numero de fila en el banco "))
+while Request > 1:
+    Request -=1
+    print("Historial de personas", Request)
